@@ -1,8 +1,20 @@
-print ("Estructuras Repetitivas")
+print("Estructuras Repetitivas")
 
-#for
+# For
+for i in range(1,11):
+    print(f'Numero {i}')
 
+for letra in ("Hola Mundo"):
+    print(letra)
 
+# While
+contador = 1
+while contador <=3:
+    print(f'Intento {contador}')
+    contador+=1 # contador = contador +1 
 
-#while
-#Do while
+# Do while
+while True:
+    numero = int (input("Ingrese numero > 0: "))
+    if numero > 0:
+        break
